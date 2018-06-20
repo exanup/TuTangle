@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>TuTangle</title>
+</head>
+
+<body>
+  <div class="main-wrapper">
+    <div class="header-wrapper">
+      <div class="header-top">
+        <div class="content-wrapper clrfix">
+          <div class="header-topleft clrfix">
+            <div class="logo-wrapper">
+              <img class="logo" src="images/logo.png" alt="Logo of TuTangle">
+            </div>
+            <div class="search-wrapper clrfix">
+              <form action="#" method="GET">
+                <div class="search-input-wrapper clrfix">
+                  <input class="search-input" type="text" name="q" placeholder="Search by Term, Member, or Entry Title" value="Search by Term, Member, or Entry Title">
+                  <div class="cross">
+                    <img src="images/clear-field-icon.png" alt="">
+                  </div>
+                </div>
+                <div class="search-button-wrapper">
+                  <button>Search</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="header-topright">
+            <div class="username-wrapper">
+              <div class="username">Joe Burros</div>
+            </div>
+            <div class="header-topright-nav clrfix">
+              <ul class="nav clrfix">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Settings</li>
+                <li class="nav-item">Log Out</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="content-wrapper clrfix">
+          <div class="header-bottomleft">
+            <ul class="nav clrfix">
+              <li class="nav-item">Create New Entry</li>
+              <li class="nav-item">My Topic Boxes</li>
+              <li class="nav-item">Friends</li>
+              <li class="nav-item">Invite New Member</li>
+            </ul>
+          </div>
+          <div class="header-bottomright">
+            <ul class="nav">
+              <li class="nav-item topic-box-invites">
+                <i class="icon"></i>Topic Boxes Invites -
+                <span>2</span>
+              </li>
+              <li class="nav-item friend-requests disabled">
+                <i class="icon"></i>Friend Requests -
+                <span>0</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="content-wrapper clrfix">
+        <div class="sidebar-left">
+          <div class="sidebar-lefttop">
+            <div class="title">Recent Searches</div>
+            <div class="list">
+              <ul class="nav sidebar">
+                <li class="nav-item clrfix">
+                  <span class="nav-item-wrapper">
+                    Nick Cave and the Bad Seeds
+                  </span>
+                  <!-- <span class="nav-image-wrapper"> -->
+                  <!-- <img src="images/download-icon.png" alt="download icon"> -->
+                  <!-- </span> -->
+                </li>
+                <li class="nav-item last clrfix">
+                  <span class="nav-item-wrapper">
+                    African Animals
+                  </span>
+                  <!-- <span class="nav-image-wrapper"> -->
+                  <!-- <img src="images/download-icon.png" alt="download icon"> -->
+                  <!-- </span> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="sidebar-leftbottom">
+            <div class="title">Recent Searches</div>
+            <div class="list">
+              <ul class="nav sidebar">
+                <li class="nav-item clrfix">
+                  <span class="nav-item-wrapper">
+                    Different versions of the Tristan Und Isolde Prelude
+                  </span>
+                  <!-- <span class="nav-image-wrapper"> -->
+                  <!-- <img src="images/rearrange-icon.png" alt="rearrange icon"> -->
+                  <!-- </span> -->
+                </li>
+                <li class="nav-item clrfix">
+                  <span class="nav-item-wrapper">
+                    Music
+                  </span>
+                  <!-- <span class="nav-image-wrapper"> -->
+                  <!-- <img src="images/rearrange-icon.png" alt="rearrange icon"> -->
+                  <!-- </span> -->
+                </li>
+                <li class="nav-item clrfix">
+                  <span class="nav-item-wrapper">
+                    Guitar
+                  </span>
+                  <!-- <span class="nav-image-wrapper"> -->
+                  <!-- <img src="images/rearrange-icon.png" alt="rearrange icon"> -->
+                  <!-- </span> -->
+                </li>
+                <li class="nav-item clrfix">
+                  <span class="nav-item-wrapper">
+                    Bob Cohen
+                  </span>
+                  <!-- <span class="nav-image-wrapper"> -->
+                  <!-- <img src="images/rearrange-icon.png" alt="rearrange icon"> -->
+                  <!-- </span> -->
+                </li>
+                <li class="nav-item clrfix">
+                  <span class="nav-item-wrapper">
+                    Mark Schnack
+                  </span>
+                  <!-- <span class="nav-image-wrapper"> -->
+                  <!-- <img src="images/rearrange-icon.png" alt="rearrange icon"> -->
+                  <!-- </span> -->
+                </li>
+                <li class="nav-item last clrfix">
+                  <span class="nav-item-wrapper">
+                    Jefferson Dickey
+                  </span>
+                  <!-- <span class="nav-image-wrapper"> -->
+                  <!-- <img src="images/rearrange-icon.png" alt="rearrange icon"> -->
+                  <!-- </span> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="rightcontent-wrapper clrfix">
+          <div class="main-container-body">
+            <div class="title">Entries</div>
+            <div class="entries-content-wrapper">
+              <div class="entries-nav-wrapper">
+                <div class="nav-titles">
+                  <ul class="nav clrfix">
+                    <li class="nav-item">All Entries</li>
+                    <li class="nav-item">Subscribed</li>
+                  </ul>
+                </div>
+                <div class="nav-tabs">
+                  <ul class="nav clrfix">
+                    <li class="nav-item active">All Members</li>
+                    <li class="nav-item">Friends</li>
+                    <li class="nav-item third">New Entries</li>
+                    <li class="nav-item">New Comments</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="entries-body">
+                <ul class="entries-list">
+                  <li class="entry media clrfix">
+                    <div class="display-img-wrapper">
+                      <img src="images/1.png" alt="">
+                    </div>
+                    <div class="media-body">
+                      <div class="media-tag d-none"></div>
+                      <div class="media-header">
+                        Day for Night by Francois Truffaut, a ground breaking film
+                      </div>
+                      <div class="media-main">
+                        by
+                        <span class="entry-author">Alan Coe</span>
+                        |
+                        <span class="entry-date">February 10, 2012</span>
+                        <span class="entry-subscription">
+                          |
+                          <span class="entry-subscription-status">Subscribed</span>
+                        </span>
+                      </div>
+                      <div class="media-footer">
+                        From Topic Box:
+                        <span class="entry-from">My Favorite Movies</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="entry media clrfix">
+                    <div class="display-img-wrapper">
+                      <img src="images/2.png" alt="">
+                    </div>
+                    <div class="media-body">
+                      <div class="media-tag">
+                        <span class="entry-tag-info">
+                          New Entry!
+                        </span>
+                      </div>
+                      <div class="media-header">
+                        Blade Runner, The Director's Cut
+                      </div>
+                      <div class="media-main">
+                        by
+                        <span class="entry-author">Marry Pilot</span>
+                        |
+                        <span class="entry-date">February 8, 2012</span>
+                        <span class="entry-subscription d-none">
+                          |
+                          <span class="entry-subscription-status">Subscribed</span>
+                        </span>
+                      </div>
+                      <div class="media-footer">
+                        From Topic Box:
+                        <span class="entry-from">Behind the Scene</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="entry media clrfix">
+                    <div class="display-img-wrapper">
+                      <img src="images/3.png" alt="">
+                    </div>
+                    <div class="media-body">
+                      <div class="media-tag">
+                        <span class="entry-tag-info">
+                          New Comment!
+                        </span>
+                      </div>
+                      <div class="media-header">
+                        The Best French Restaurant in Chicago?
+                      </div>
+                      <div class="media-main">
+                        by
+                        <span class="entry-author">Jim Roy</span>
+                        |
+                        <span class="entry-date">February 7, 2012</span>
+                        <span class="entry-subscription d-none">
+                          |
+                          <span class="entry-subscription-status">Subscribed</span>
+                        </span>
+                      </div>
+                      <div class="media-footer">
+                        From Topic Box:
+                        <span class="entry-from">Chicago Restaurants Reviews</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="entry media clrfix">
+                    <div class="display-img-wrapper">
+                      <img src="images/4.png" alt="">
+                    </div>
+                    <div class="media-body">
+                      <div class="media-tag d-none"></div>
+                      <div class="media-header">
+                        The Meaning of Night. Dark Book but incredibly well written.
+                      </div>
+                      <div class="media-main">
+                        by
+                        <span class="entry-author">John-Peter Moise</span>
+                        |
+                        <span class="entry-date">February 7, 2012</span>
+                        <span class="entry-subscription">
+                          |
+                          <span class="entry-subscription-status">Subscribed</span>
+                        </span>
+                      </div>
+                      <div class="media-footer">
+                        From Topic Box:
+                        <span class="entry-from">Books Read &amp; Books to Read</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="entry media clrfix">
+                    <div class="display-img-wrapper">
+                      <img src="images/5.png" alt="">
+                    </div>
+                    <div class="media-body">
+                      <div class="media-tag">
+                        <span class="entry-tag-danger">
+                          Topic Box Invite!
+                        </span>
+                      </div>
+                      <div class="media-header">
+                        Pea Pesto
+                      </div>
+                      <div class="media-main">
+                        by
+                        <span class="entry-author">Marianne Gig</span>
+                        |
+                        <span class="entry-date">February 6, 2012</span>
+                        <span class="entry-subscription d-none">
+                          |
+                          <span class="entry-subscription-status">Subscribed</span>
+                        </span>
+                      </div>
+                      <div class="media-footer">
+                        From Topic Box:
+                        <span class="entry-from">Favorite Recipes</span>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-right">
+            <div class="title">Video Tutorials</div>
+            <div class="list">
+
+              <ul class="nav sidebar">
+                <li class="nav-item clrfix">
+                  Overview of Tutangle
+                </li>
+                <li class="nav-item clrfix">
+                  Searching the Site
+                </li>
+                <li class="nav-item clrfix">
+                  Previous &amp; Saved Searches
+                </li>
+                <li class="nav-item clrfix">
+                  The Topic Box Page
+                </li>
+                <li class="nav-item clrfix">
+                  Creating a Topic Box
+                </li>
+                <li class="nav-item clrfix">
+                  View Topic Box Entries
+                </li>
+                <li class="nav-item clrfix">
+                  Creating an Entry
+                </li>
+                <li class="nav-item clrfix">
+                  Privacy Settings
+                </li>
+                <li class="nav-item last clrfix">
+                  Co-Authoring
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-wrapper">
+      <div class="content-wrapper clrfix">
+        <div class="footer-left">
+          <ul class="nav">
+            <li class="nav-item">About Us</li>
+            <li class="nav-item">Contact Us</li>
+            <li class="nav-item">Terms of Use</li>
+            <li class="nav-item">Privacy Policy</li>
+            <li class="nav-item">Feedback</li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          &copy; TuTangle 2013
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
